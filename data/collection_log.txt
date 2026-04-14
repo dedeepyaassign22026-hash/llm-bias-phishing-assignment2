@@ -1,0 +1,379 @@
+Collection Log - Started 2026-04-14 03:29:48
+--------------------------------------------------
+[03:29:48] Log file initialised
+[03:29:48] Total models to process: 15
+[03:29:48] Prompt 2 runs per model: 10
+[03:29:48] Expected total samples: 450
+[03:29:48] Ready for data collection
+[03:31:14] Collection started - expecting 450 samples
+[03:31:14] Model 1/15: LLaMA-3.1-8B (Meta)
+[03:31:15]   Prompt 1 success
+[03:31:32]   5/10 runs done
+[03:32:19]   10/10 runs done
+[03:32:21]   Completed: 10/10 runs successful
+[03:32:21]   Total records so far: 30
+[03:32:21]   Checkpoint saved
+[03:32:21] Model 2/15: LLaMA-3.3-70B (Meta)
+[03:32:21]   Prompt 1 success
+[03:32:40]   5/10 runs done
+[03:32:58]   10/10 runs done
+[03:33:00]   Completed: 10/10 runs successful
+[03:33:00]   Total records so far: 60
+[03:33:00]   Checkpoint saved
+[03:33:00] Model 3/15: LLaMA-4-Scout-17B (Meta)
+[03:33:01]   Prompt 1 success
+[03:33:17]   5/10 runs done
+[03:33:35]   10/10 runs done
+[03:33:37]   Completed: 10/10 runs successful
+[03:33:37]   Total records so far: 90
+[03:33:37]   Checkpoint saved
+[03:33:37] Model 4/15: Gemma3-4B (Google)
+[03:33:50]   Prompt 1 success
+[03:36:30]   Run 4 FAILED
+[03:37:45]   Run 5 FAILED
+[03:39:00]   Run 6 FAILED
+[03:40:14]   Run 7 FAILED
+[03:41:29]   Run 8 FAILED
+[03:42:44]   Run 9 FAILED
+[03:43:59]   Run 10 FAILED
+[03:44:07]   Completed: 3/10 runs successful
+[03:44:07]   Total records so far: 99
+[03:44:07]   Checkpoint saved
+[03:44:07] Model 5/15: Gemma3-12B (Google)
+[03:45:14]   Prompt 1 FAILED - skipping Gemma3-12B
+[03:45:14] Model 6/15: Gemma3-27B (Google)
+[03:46:20]   Prompt 1 FAILED - skipping Gemma3-27B
+[03:46:20] Model 7/15: Qwen3-32B (Qwen)
+[03:46:24]   Prompt 1 success
+[03:47:09]   5/10 runs done
+[03:48:23]   10/10 runs done
+[03:48:25]   Completed: 10/10 runs successful
+[03:48:25]   Total records so far: 129
+[03:48:25]   Checkpoint saved
+[03:48:25] Model 8/15: Qwen3-Coder (Qwen)
+[03:49:35]   Prompt 1 FAILED - skipping Qwen3-Coder
+[03:49:35] Model 9/15: Qwen3-80B (Qwen)
+[03:50:44]   Prompt 1 FAILED - skipping Qwen3-80B
+[03:50:44] Model 10/15: Nemotron-3-Super-120B (NVIDIA)
+[03:51:51]   Prompt 1 FAILED - skipping Nemotron-3-Super-120B
+[03:51:51] Model 11/15: Nemotron-3-Nano-30B (NVIDIA)
+[03:52:58]   Prompt 1 FAILED - skipping Nemotron-3-Nano-30B
+[03:52:58] Model 12/15: Nemotron-Nano-9B (NVIDIA)
+[03:54:05]   Prompt 1 FAILED - skipping Nemotron-Nano-9B
+[03:54:05] Model 13/15: Hermes-3-405B (Nous Research)
+[03:54:57]   Prompt 1 FAILED - skipping Hermes-3-405B
+[03:54:57] Model 14/15: LLaMA-3.3-70B-OR (Nous Research)
+[03:56:07]   Prompt 1 FAILED - skipping LLaMA-3.3-70B-OR
+[03:56:07] Model 15/15: Gemma3n-4B (Nous Research)
+[03:57:15]   Prompt 1 FAILED - skipping Gemma3n-4B
+[03:57:15] ---
+[03:57:15] Collection complete
+[03:57:15] Total records: 129
+[03:57:15] Expected: 450
+[03:57:15] Success rate: 28.7%
+[04:06:02] Run 2 collection started
+[04:06:02] Models to process: 6
+[04:06:02] Expected new samples: 180
+[04:06:02] Current total before Run 2: 129
+[04:06:02] Model 1/6: GPT-OSS-20B (OpenAI OSS)
+[04:06:04]   Prompt 1 success
+[04:06:18]   5/10 runs done
+[04:06:56]   10/10 runs done
+[04:06:58]   Completed: 10/10 successful
+[04:06:58]   Cumulative total: 159
+[04:06:58]   Checkpoint saved
+[04:06:58] Model 2/6: GPT-OSS-120B (OpenAI OSS)
+[04:07:00]   Prompt 1 success
+[04:07:19]   5/10 runs done
+[04:07:46]   10/10 runs done
+[04:07:48]   Completed: 10/10 successful
+[04:07:48]   Cumulative total: 189
+[04:07:48]   Checkpoint saved
+[04:07:48] Model 3/6: Kimi-K2 (Moonshot AI)
+[04:07:49]   Prompt 1 success
+[04:08:04]   5/10 runs done
+[04:08:19]   10/10 runs done
+[04:08:21]   Completed: 10/10 successful
+[04:08:21]   Cumulative total: 219
+[04:08:21]   Checkpoint saved
+[04:08:21] Model 4/6: Kimi-K2-0905 (Moonshot AI)
+[04:08:22]   Prompt 1 success
+[04:08:38]   5/10 runs done
+[04:08:54]   10/10 runs done
+[04:08:56]   Completed: 10/10 successful
+[04:08:56]   Cumulative total: 249
+[04:08:56]   Checkpoint saved
+[04:08:56] Model 5/6: Allam-2-7B (SDAIA)
+[04:08:56]   Prompt 1 success
+[04:09:25]   5/10 runs done
+[04:10:31]   10/10 runs done
+[04:10:33]   Completed: 10/10 successful
+[04:10:33]   Cumulative total: 279
+[04:10:33]   Checkpoint saved
+[04:10:33] Model 6/6: Qwen3-32B-Run2 (Qwen)
+[04:10:36]   Prompt 1 success
+[04:11:25]   5/10 runs done
+[04:12:37]   10/10 runs done
+[04:12:39]   Completed: 10/10 successful
+[04:12:39]   Cumulative total: 309
+[04:12:39]   Checkpoint saved
+[04:12:39] ---
+[04:12:39] Run 2 complete
+[04:12:39] Total records after Run 2: 309
+[04:12:39] New samples added: 180
+[04:20:35] Run 3 collection started
+[04:20:35] Models to process: 9
+[04:20:35] Expected new samples: 270
+[04:20:35] Current total before Run 3: 309
+[04:20:35] Model 1/9: LLaMA-3.1-8B-R3 (Meta)
+[04:20:36]   Prompt 1 success
+[04:21:03]   5/10 runs done
+[04:21:53]   10/10 runs done
+[04:21:55]   Completed: 10/10 successful
+[04:21:55]   Cumulative total: 339
+[04:21:55]   Checkpoint saved
+[04:21:55] Model 2/9: LLaMA-3.3-70B-R3 (Meta)
+[04:21:56]   Prompt 1 success
+[04:22:13]   5/10 runs done
+[04:22:31]   10/10 runs done
+[04:22:33]   Completed: 10/10 successful
+[04:22:33]   Cumulative total: 369
+[04:22:33]   Checkpoint saved
+[04:22:33] Model 3/9: LLaMA-4-Scout-R3 (Meta)
+[04:22:35]   Prompt 1 success
+[04:22:51]   5/10 runs done
+[04:23:07]   10/10 runs done
+[04:23:09]   Completed: 10/10 successful
+[04:23:09]   Cumulative total: 399
+[04:23:09]   Checkpoint saved
+[04:23:09] Model 4/9: Qwen3-32B-R3 (Qwen)
+[04:23:11]   Prompt 1 success
+[04:23:58]   5/10 runs done
+[04:25:16]   10/10 runs done
+[04:25:18]   Completed: 10/10 successful
+[04:25:18]   Cumulative total: 429
+[04:25:18]   Checkpoint saved
+[04:25:18] Model 5/9: GPT-OSS-20B-R3 (OpenAI OSS)
+[04:25:19]   Prompt 1 success
+[04:25:37]   5/10 runs done
+[04:26:13]   10/10 runs done
+[04:26:15]   Completed: 10/10 successful
+[04:26:15]   Cumulative total: 459
+[04:26:15]   Checkpoint saved
+[04:26:15] Model 6/9: GPT-OSS-120B-R3 (OpenAI OSS)
+[04:26:16]   Prompt 1 success
+[04:26:45]   5/10 runs done
+[04:27:25]   10/10 runs done
+[04:27:27]   Completed: 10/10 successful
+[04:27:27]   Cumulative total: 489
+[04:27:27]   Checkpoint saved
+[04:27:27] Model 7/9: Kimi-K2-R3 (Moonshot AI)
+[04:27:27]   Prompt 1 success
+[04:27:43]   5/10 runs done
+[04:27:59]   10/10 runs done
+[04:28:01]   Completed: 10/10 successful
+[04:28:01]   Cumulative total: 519
+[04:28:01]   Checkpoint saved
+[04:28:01] Model 8/9: Allam-2-7B-R3 (SDAIA)
+[04:28:01]   Prompt 1 success
+[04:28:24]   5/10 runs done
+[04:29:23]   10/10 runs done
+[04:29:25]   Completed: 10/10 successful
+[04:29:25]   Cumulative total: 549
+[04:29:25]   Checkpoint saved
+[04:29:25] Model 9/9: LLaMA-3.3-70B-R3b (Meta)
+[04:29:25]   Prompt 1 success
+[04:29:45]   5/10 runs done
+[04:30:02]   10/10 runs done
+[04:30:04]   Completed: 10/10 successful
+[04:30:04]   Cumulative total: 579
+[04:30:04]   Checkpoint saved
+[04:30:04] ---
+[04:30:04] Run 3 complete
+[04:30:04] Total records after Run 3: 579
+[04:30:04] New samples added this run: 270
+[05:01:04] Run 4 started - NVIDIA Nemotron via OpenRouter
+[05:01:04] Models: 3
+[05:01:04] Expected new samples: 90
+[05:01:04] Current total: 579
+[05:01:04] Model 1/3: Nemotron-Nano-30B
+[05:01:13]   Prompt 1 FAILED - skipping Nemotron-Nano-30B
+[05:01:13] Model 2/3: Nemotron-Super-120B
+[05:02:42]   Prompt 1 success
+[05:06:38]   5/10 runs done
+[05:10:33]   10/10 runs done
+[05:10:43]   Completed: 10/10 successful
+[05:10:43]   Cumulative total: 609
+[05:10:43]   Checkpoint saved
+[05:10:43] Model 3/3: Nemotron-9B
+[05:12:14]   Prompt 1 success
+[05:15:34]   Run 3 FAILED
+[05:18:00]   5/10 runs done
+[05:23:01]   10/10 runs done
+[05:23:11]   Completed: 9/10 successful
+[05:23:11]   Cumulative total: 636
+[05:23:11]   Checkpoint saved
+[05:23:11] ---
+[05:23:11] Run 4 complete
+[05:23:11] Total after Run 4: 636
+[05:23:11] New samples this run: 57
+[05:25:44] Run 4b started - Nemotron-Nano-30B retry
+[05:25:44] Current total: 636
+[05:25:44] Retrying: Nemotron-Nano-30B-R4b
+[05:25:52]   Prompt 1 success
+[05:27:06]   5/10 runs done
+[05:28:16]   10/10 runs done
+[05:28:26]   Completed: 10/10 successful
+[05:28:26]   Cumulative total: 666
+[05:28:26]   Checkpoint saved
+[05:28:26] Run 4b complete
+[05:28:26] Total after Run 4b: 666
+[05:29:32] Pass 1/2 started
+[05:29:32] Current total: 666
+[05:29:32]   Model 1/9: LLaMA-3.1-8B-P1
+[05:30:48]     Completed: 10/10
+[05:30:48]   Model 2/9: LLaMA-3.3-70B-P1
+[05:31:29]     Completed: 10/10
+[05:31:29]   Model 3/9: LLaMA-4-Scout-17B-P1
+[05:32:04]     Completed: 10/10
+[05:32:04]   Model 4/9: Qwen3-32B-P1
+[05:35:34]     Completed: 10/10
+[05:35:34]   Model 5/9: GPT-OSS-20B-P1
+[05:36:46]     Completed: 10/10
+[05:36:46]   Model 6/9: GPT-OSS-120B-P1
+[05:37:49]     Completed: 10/10
+[05:37:49]   Model 7/9: Kimi-K2-P1
+[05:38:24]     Completed: 10/10
+[05:38:24]   Model 8/9: Allam-2-7B-P1
+[05:40:01]     Completed: 10/10
+[05:40:01]   Model 9/9: LLaMA-3.3-70B-v2-P1
+[05:40:42]     Completed: 10/10
+[05:40:42] Pass 1 complete - total: 936
+[05:40:42] Checkpoint saved
+[05:40:42] Pass 2/2 started
+[05:40:42] Current total: 936
+[05:40:42]   Model 1/9: LLaMA-3.1-8B-P2
+[05:42:18]     Completed: 10/10
+[05:42:18]   Model 2/9: LLaMA-3.3-70B-P2
+[05:43:00]     Completed: 10/10
+[05:43:00]   Model 3/9: LLaMA-4-Scout-17B-P2
+[05:43:37]     Completed: 10/10
+[05:43:37]   Model 4/9: Qwen3-32B-P2
+[05:45:29]     Completed: 10/10
+[05:45:29]   Model 5/9: GPT-OSS-20B-P2
+[05:46:27]     Completed: 10/10
+[05:46:27]   Model 6/9: GPT-OSS-120B-P2
+[05:47:40]     Completed: 10/10
+[05:47:40]   Model 7/9: Kimi-K2-P2
+[05:48:15]     Completed: 10/10
+[05:48:15]   Model 8/9: Allam-2-7B-P2
+[05:49:49]     Completed: 10/10
+[05:49:49]   Model 9/9: LLaMA-3.3-70B-v2-P2
+[05:50:30]     Completed: 10/10
+[05:50:30] Pass 2 complete - total: 1206
+[05:50:30] Checkpoint saved
+[05:50:30] ---
+[05:50:30] Runs 5 and 6 complete
+[05:50:30] Final total: 1206
+[05:50:30] New samples added: 540
+[05:50:30] Target was 1200 - ACHIEVED
+[05:59:03] Groq gap fill started
+[05:59:03] Current total: 1206
+[05:59:03] Targets: Moonshot +60, Qwen +60, SDAIA +90
+[05:59:03] Running: Kimi-K2-GF1 (Moonshot AI)
+[05:59:04]   Prompt 1 success
+[05:59:38]   Kimi-K2-GF1: 10/10 successful
+[05:59:38]   Cumulative total: 1236
+[05:59:38] Running: Kimi-K2-GF2 (Moonshot AI)
+[05:59:39]   Prompt 1 success
+[06:00:14]   Kimi-K2-GF2: 10/10 successful
+[06:00:14]   Cumulative total: 1266
+[06:00:14] Running: Qwen3-32B-GF1 (Qwen)
+[06:00:16]   Prompt 1 success
+[06:02:46]   Qwen3-32B-GF1: 10/10 successful
+[06:02:46]   Cumulative total: 1296
+[06:02:46] Running: Qwen3-32B-GF2 (Qwen)
+[06:02:50]   Prompt 1 success
+[06:06:36]   Qwen3-32B-GF2: 10/10 successful
+[06:06:36]   Cumulative total: 1326
+[06:06:36] Running: Allam-2-7B-GF1 (SDAIA)
+[06:06:36]   Prompt 1 success
+[06:08:04]   Allam-2-7B-GF1: 10/10 successful
+[06:08:04]   Cumulative total: 1356
+[06:08:04] Running: Allam-2-7B-GF2 (SDAIA)
+[06:08:09]   Prompt 1 success
+[06:10:04]   Allam-2-7B-GF2: 10/10 successful
+[06:10:04]   Cumulative total: 1386
+[06:10:04] Running: Allam-2-7B-GF3 (SDAIA)
+[06:10:09]   Prompt 1 success
+[06:12:06]   Allam-2-7B-GF3: 10/10 successful
+[06:12:06]   Cumulative total: 1416
+[06:12:06] ---
+[06:12:06] Groq gap fill complete
+[06:12:06] New samples added: 210
+[06:12:06] Total now: 1416
+[06:12:06] Next: OpenRouter gap fill for Google and NVIDIA
+[06:13:27] OpenRouter gap fill started
+[06:13:27] Current total: 1416
+[06:13:27] Targets: Google +191, NVIDIA +113
+[06:13:27] Using 12 second delays between requests
+[06:13:27] Model 1/11: Gemma3-4B-GF1 (Google)
+[06:14:34]   Prompt 1 FAILED - skipping Gemma3-4B-GF1
+[06:14:46] Model 2/11: Gemma3-4B-GF2 (Google)
+[06:15:54]   Prompt 1 FAILED - skipping Gemma3-4B-GF2
+[06:16:06] Model 3/11: Gemma3-4B-GF3 (Google)
+[06:17:13]   Prompt 1 FAILED - skipping Gemma3-4B-GF3
+[06:17:25] Model 4/11: Gemma3-4B-GF4 (Google)
+[06:18:33]   Prompt 1 FAILED - skipping Gemma3-4B-GF4
+[06:18:45] Model 5/11: Gemma3-4B-GF5 (Google)
+[06:19:52]   Prompt 1 FAILED - skipping Gemma3-4B-GF5
+[06:20:04] Model 6/11: Gemma3-4B-GF6 (Google)
+[06:21:11]   Prompt 1 FAILED - skipping Gemma3-4B-GF6
+[06:21:23] Model 7/11: Gemma3-4B-GF7 (Google)
+[06:22:30]   Prompt 1 FAILED - skipping Gemma3-4B-GF7
+[06:22:42] Model 8/11: Nemotron-Nano-GF1 (NVIDIA)
+[06:22:48]   Prompt 1 success
+[06:24:13]   5/10 runs done
+[06:25:36]   10/10 runs done
+[06:25:48]   Completed: 10/10 successful
+[06:25:48]   Cumulative total: 1446
+[06:25:48]   Checkpoint saved
+[06:25:48] Model 9/11: Nemotron-Super-GF1 (NVIDIA)
+[06:26:02]   Prompt 1 success
+[06:30:52]   5/10 runs done
+[06:35:48]   10/10 runs done
+[06:36:00]   Completed: 10/10 successful
+[06:36:00]   Cumulative total: 1476
+[06:36:00]   Checkpoint saved
+[06:36:00] Model 10/11: Nemotron-9B-GF1 (NVIDIA)
+[06:36:52]   Prompt 1 success
+[06:37:31]   Run 1 FAILED
+[06:39:44]   Run 4 FAILED
+[06:40:38]   Run 5 FAILED
+[06:42:26]   Run 7 FAILED
+[06:45:16]   Run 10 FAILED
+[06:45:28]   Completed: 5/10 successful
+[06:45:28]   Cumulative total: 1491
+[06:45:28]   Checkpoint saved
+[06:45:28] Model 11/11: Nemotron-Nano-GF2 (NVIDIA)
+[06:45:33]   Prompt 1 success
+[06:46:56]   5/10 runs done
+[06:48:25]   10/10 runs done
+[06:48:37]   Completed: 10/10 successful
+[06:48:37]   Cumulative total: 1521
+[06:48:37]   Checkpoint saved
+[06:48:37] ---
+[06:48:37] OpenRouter gap fill complete
+[06:48:37] New samples this run: 105
+[06:48:37] Total now: 1521
+[06:50:22] NVIDIA final gap fill - need 8 samples
+[06:50:22] Current total: 1521
+[06:50:27]   NVIDIA Prompt 1 failed - will try different model
+[06:50:27] Total after NVIDIA fix: 1521
+[07:00:10] Final NVIDIA gap fill - need 8 samples
+[07:01:08]   Prompt 1 success
+[07:02:36]   Run 1 success - 3 samples added
+[07:03:23]   Run 2 success - 6 samples added
+[07:04:34]   Run 3 success - 9 samples added
+[07:04:49] NVIDIA gap filled - added 9 samples
+[07:04:49] Total records: 1530
