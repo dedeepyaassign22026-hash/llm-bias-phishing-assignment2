@@ -46,31 +46,57 @@ This repository contains the complete replication package for Assignment 2: Eval
 │   ├── Notebook_5_Extended_Analysis.ipynb
 
 │   └── Notebook_6_Bias_Mitigation_Testing.ipynb
+
 ├── data/
+
 │   ├── raw_dataset.csv
+
 │   ├── clean_dataset.csv
+
 │   ├── structured_dataset.csv
+
 │   ├── toxicity_dataset.csv
+
 │   ├── healthcare_context.csv
+
 │   ├── cybersecurity_context.csv
+
 │   ├── bias_interpretations.csv
+
 │   └── mitigation_results.csv
+
 ├── figures/
+
 │   ├── fig1_provider_vulnerability.png
+
 │   ├── fig2_education_vulnerability.png
+
 │   ├── fig3_experience_vulnerability.png
+
 │   ├── fig4_age_vulnerability.png
+
 │   ├── fig5_region_vulnerability.png
+
 │   ├── fig6_significance_summary.png
+
 │   ├── fig7_toxicity_analysis.png
+
 │   ├── fig8_context_comparison.png
+
 │   ├── fig9_decodingtrust_summary.png
+
 │   ├── fig10_consistency_analysis.png
+
 │   ├── fig11_factors_analysis.png
+
 │   ├── fig12_personality_bias.png
+
 │   ├── fig13_cultural_bias.png
+
 │   ├── fig14_wordcloud.png
+
 │   └── fig15_mitigation_results.png
+
 └── README.md
 
 
