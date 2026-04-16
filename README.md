@@ -34,11 +34,17 @@ This repository contains the complete replication package for Assignment 2: Eval
 ## Repository Structure
 
 ├── notebooks/
+
 │   ├── Notebook_1_Data_Collection.ipynb
+
 │   ├── Notebook_2_Data_Extraction.ipynb
+
 │   ├── Notebook_3_Statistical_Analysis.ipynb
+
 │   ├── Notebook_4_Toxicity_and_Context_Analysis.ipynb
+
 │   ├── Notebook_5_Extended_Analysis.ipynb
+
 │   └── Notebook_6_Bias_Mitigation_Testing.ipynb
 ├── data/
 │   ├── raw_dataset.csv
